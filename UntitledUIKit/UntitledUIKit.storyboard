@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="A34243F0-0B80-4771-913B-4E60166FCC82-VC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+<!--iPhone 7-->
+        <scene sceneID="A34243F0-0B80-4771-913B-4E60166FCC82-Scene">
+            <objects>
+                <viewController restorationIdentifier="iphone7" storyboardIdentifier="iphone7" id="A34243F0-0B80-4771-913B-4E60166FCC82-VC" userLabel="iPhone 7" sceneMemberID="viewController" customClass="APIphone7VC" customModuleProvider="target">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A34243F0-0B80-4771-913B-4E60166FCC82-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="A34243F0-0B80-4771-913B-4E60166FCC82-Bottom"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A34243F0-0B80-4771-913B-4E60166FCC82" >
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <subviews>
+    <imageView image="iphone 7path" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-48a5be66-281e-447b-88d7-6445b715c2c8" userLabel="Path"   >
+        <rect key="frame" x="128" y="144" width="85" height="133"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="iphone 7path 2" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-17f6615e-2f4d-48de-a313-590675681717" userLabel="Path 2"   >
+        <rect key="frame" x="112" y="169" width="166" height="150"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="iphone 7path 3" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-251ca923-5147-4e1f-86d5-19e770a3d112" userLabel="Path 3"   >
+        <rect key="frame" x="108" y="159" width="72" height="231"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+    <imageView image="iphone 7line" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="image-648a9a6c-9d71-449b-875a-006c7137386f" userLabel="Line"   >
+        <rect key="frame" x="80" y="128" width="49" height="148"/>
+        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes></userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </imageView>
+        </subviews>
+        <constraints>
+            <constraint firstItem="image-48a5be66-281e-447b-88d7-6445b715c2c8" firstAttribute="width" constant="85" priority="971" id="image-48a5be66-281e-447b-88d7-6445b715c2c8-width" userLabel="Path-width"/>
+            <constraint firstItem="image-48a5be66-281e-447b-88d7-6445b715c2c8" firstAttribute="height" constant="133" priority="972" id="image-48a5be66-281e-447b-88d7-6445b715c2c8-height" userLabel="Path-height"/>
+            <constraint secondAttribute="top" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-48a5be66-281e-447b-88d7-6445b715c2c8" firstAttribute="top" constant="144" priority="973" id="image-48a5be66-281e-447b-88d7-6445b715c2c8-top" userLabel="Path-top"/>
+            <constraint secondAttribute="left" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-48a5be66-281e-447b-88d7-6445b715c2c8" firstAttribute="left" constant="128" priority="974" id="image-48a5be66-281e-447b-88d7-6445b715c2c8-left" userLabel="Path-left"/>
+            <constraint firstItem="image-17f6615e-2f4d-48de-a313-590675681717" firstAttribute="width" constant="166" priority="971" id="image-17f6615e-2f4d-48de-a313-590675681717-width" userLabel="Path 2-width"/>
+            <constraint firstItem="image-17f6615e-2f4d-48de-a313-590675681717" firstAttribute="height" constant="150" priority="972" id="image-17f6615e-2f4d-48de-a313-590675681717-height" userLabel="Path 2-height"/>
+            <constraint secondAttribute="top" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-17f6615e-2f4d-48de-a313-590675681717" firstAttribute="top" constant="169" priority="973" id="image-17f6615e-2f4d-48de-a313-590675681717-top" userLabel="Path 2-top"/>
+            <constraint secondAttribute="left" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-17f6615e-2f4d-48de-a313-590675681717" firstAttribute="left" constant="112" priority="974" id="image-17f6615e-2f4d-48de-a313-590675681717-left" userLabel="Path 2-left"/>
+            <constraint firstItem="image-251ca923-5147-4e1f-86d5-19e770a3d112" firstAttribute="width" constant="72" priority="971" id="image-251ca923-5147-4e1f-86d5-19e770a3d112-width" userLabel="Path 3-width"/>
+            <constraint firstItem="image-251ca923-5147-4e1f-86d5-19e770a3d112" firstAttribute="height" constant="231" priority="972" id="image-251ca923-5147-4e1f-86d5-19e770a3d112-height" userLabel="Path 3-height"/>
+            <constraint secondAttribute="top" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-251ca923-5147-4e1f-86d5-19e770a3d112" firstAttribute="top" constant="159" priority="973" id="image-251ca923-5147-4e1f-86d5-19e770a3d112-top" userLabel="Path 3-top"/>
+            <constraint secondAttribute="left" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-251ca923-5147-4e1f-86d5-19e770a3d112" firstAttribute="left" constant="108" priority="974" id="image-251ca923-5147-4e1f-86d5-19e770a3d112-left" userLabel="Path 3-left"/>
+            <constraint firstItem="image-648a9a6c-9d71-449b-875a-006c7137386f" firstAttribute="width" constant="49" priority="971" id="image-648a9a6c-9d71-449b-875a-006c7137386f-width" userLabel="Line-width"/>
+            <constraint firstItem="image-648a9a6c-9d71-449b-875a-006c7137386f" firstAttribute="height" constant="148" priority="972" id="image-648a9a6c-9d71-449b-875a-006c7137386f-height" userLabel="Line-height"/>
+            <constraint secondAttribute="top" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-648a9a6c-9d71-449b-875a-006c7137386f" firstAttribute="top" constant="128" priority="973" id="image-648a9a6c-9d71-449b-875a-006c7137386f-top" userLabel="Line-top"/>
+            <constraint secondAttribute="left" secondItem="A34243F0-0B80-4771-913B-4E60166FCC82" firstItem="image-648a9a6c-9d71-449b-875a-006c7137386f" firstAttribute="left" constant="80" priority="974" id="image-648a9a6c-9d71-449b-875a-006c7137386f-left" userLabel="Line-left"/>
+        </constraints>
+                                <connections>
+                                </connections>
+</view>
+                    <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesNavBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesStatusBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="lightStatusBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="path" destination="image-48a5be66-281e-447b-88d7-6445b715c2c8" id="path-A34243F0-0B80-4771-913B-4E60166FCC82-Prop"/>
+                        <outlet property="path2" destination="image-17f6615e-2f4d-48de-a313-590675681717" id="path2-A34243F0-0B80-4771-913B-4E60166FCC82-Prop"/>
+                        <outlet property="path3" destination="image-251ca923-5147-4e1f-86d5-19e770a3d112" id="path3-A34243F0-0B80-4771-913B-4E60166FCC82-Prop"/>
+                        <outlet property="line" destination="image-648a9a6c-9d71-449b-875a-006c7137386f" id="line-A34243F0-0B80-4771-913B-4E60166FCC82-Prop"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A34243F0-0B80-4771-913B-4E60166FCC82-FR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0" y="0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iphone 7line" />
+        <image name="iphone 7path" />
+        <image name="iphone 7path 3" />
+        <image name="iphone 7path 2" />
+    </resources>
+</document>

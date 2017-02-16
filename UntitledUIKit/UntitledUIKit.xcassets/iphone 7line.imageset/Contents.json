@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "iphone 7line@2x.png", 
+      "idiom": "universal", 
+      "scale": "2x"
+    }
+  ], 
+  "info": {
+    "author": "xcode", 
+    "version": 1
+  }
+}
